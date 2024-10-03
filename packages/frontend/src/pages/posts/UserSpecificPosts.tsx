@@ -1,6 +1,6 @@
 import { useLoaderData, useNavigate } from "react-router";
 import { useGetBlogPostsByUsernameQuery } from "../../services/posts/blogSlice";
-import DeletePostButton from "./DeletePostButton";
+import DeletePostButton from "./DeletedPostButton";
 
 const UserSpecificPosts = ({
 	isAuthenticated,
