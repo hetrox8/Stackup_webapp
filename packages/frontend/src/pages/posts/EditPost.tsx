@@ -1,7 +1,7 @@
 import { Link, useLoaderData, useNavigate } from "react-router-dom";
 import type { BlogUpdateRequest } from "../../services/posts/types";
 import {
-	useGetBlogPostByUsernameQuery,
+	useGetBlogPostsByUsernameQuery,
 	useUpdatePostMutation,
 } from "../../services/posts/blogSlice";
 import { type FormEvent, useState } from "react";

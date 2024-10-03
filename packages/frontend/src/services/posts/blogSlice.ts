@@ -103,7 +103,7 @@ export const blogApi = createApi({
 export const {
 	useLazyGetAllBlogPostsQuery,
 	useLazyGetBlogPostsByUsernameQuery,
-	useGetBlogPostsByUsernameQuery,
+	useGetBlogPostsByUsernameQuery, // This should be correct
 	useGetAllBlogPostsQuery,
 	useCreatePostMutation,
 	useUpdatePostMutation,
